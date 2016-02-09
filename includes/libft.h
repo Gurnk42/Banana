@@ -6,7 +6,7 @@
 /*   By: ebouther <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/23 15:08:57 by ebouther          #+#    #+#             */
-/*   Updated: 2016/02/06 19:48:22 by ebouther         ###   ########.fr       */
+/*   Updated: 2016/02/09 20:04:17 by ebouther         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,7 @@ typedef struct		s_list
 ** Conversions:
 */
 int					ft_atoi(const char *nptr);
+long				ft_atol(const char *nptr);
 double				ft_atod(char *str);
 char				*ft_itoa(int n);
 char				*ft_itoa_base(int value, int base);
