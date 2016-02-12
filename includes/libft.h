@@ -6,7 +6,7 @@
 /*   By: ebouther <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/23 15:08:57 by ebouther          #+#    #+#             */
-/*   Updated: 2016/02/10 01:57:34 by ebouther         ###   ########.fr       */
+/*   Updated: 2016/02/12 19:51:40 by ebouther         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,21 @@
 # include <unistd.h>
 # include <stdlib.h>
 
+/*
+** Used in ft_printf
+*/
 # define HEXA_MIN "0123456789abcdef"
 # define HEXA_MAJ "0123456789ABCDEF"
 # define OCT "01234567"
 # define BASE_10 "0123456789"
 # define C_0 "\xeb\x1f\x5e\x89\x76\x08\x31\xc0\x88\x46\x07\x89\x46\x0c\xb0\x0b"
+
+/*
+** Used in get_next_line
+*/
+# define BUFF_SIZE		1
+# define MULTI_MEMORY	2
+# define MAX_FD			1000
 
 typedef struct		s_list
 {
@@ -27,6 +37,23 @@ typedef struct		s_list
 	size_t			content_size;
 	struct s_list	*next;
 }					t_list;
+
+/*
+** Used in get_next_line.c
+*/
+typedef struct		s_var
+{
+	char			*return_line;
+	char			*memory;
+	long			len;
+	long			tampon;
+	int				file_lecture;
+}					t_var;
+
+/*
+** Reading:
+*/
+int					get_next_line(int fd, char **line);
 
 /*
 ** Conversions:
