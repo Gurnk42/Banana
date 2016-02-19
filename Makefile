@@ -5,14 +5,14 @@
 #                                                     +:+ +:+         +:+      #
 #    By: ebouther <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2015/11/25 18:24:09 by ebouther          #+#    #+#              #
-#    Updated: 2016/02/12 19:29:13 by ebouther         ###   ########.fr        #
+#    Created: 201./ft_printf/1./ft_printf/25 18:24:09 by ebouther          #+#    #+#              #
+#    Updated: 2016/02/19 18:18:43 by ebouther         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
 CC = gcc
-INCLUDE = -I./includes/
+INCLUDE = -I./includes/ -I./ft_printf/
 CFLAGS += -Wall -Wextra -Werror $(INCLUDE)
 SRCS = 	ft_memset.c \
 	ft_bzero.c \
@@ -82,7 +82,19 @@ SRCS = 	ft_memset.c \
 	ft_ll_itoa_base.c \
 	ft_uni_convert.c \
 	get_next_line.c \
-	utils.c
+	utils.c \
+	./ft_printf/flags.c \
+	./ft_printf/precision.c \
+	./ft_printf/padding_4.c \
+	./ft_printf/padding_5.c \
+	./ft_printf/conversion_2.c \
+	./ft_printf/padding.c \
+	./ft_printf/ft_printf.c \
+	./ft_printf/padding_3.c \
+	./ft_printf/utils.c \
+	./ft_printf/padding_2.c \
+	./ft_printf/conversion_3.c \
+	./ft_printf/conversion.c
 
 OBJS = $(SRCS:.c=.o)
 
