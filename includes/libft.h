@@ -6,7 +6,7 @@
 /*   By: ebouther <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/23 15:08:57 by ebouther          #+#    #+#             */
-/*   Updated: 2016/02/19 18:14:00 by ebouther         ###   ########.fr       */
+/*   Updated: 2016/02/23 14:04:40 by ebouther         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@
 /*
 ** Used in get_next_line
 */
-# define BUFF_SIZE		1
+# define BUFF_SIZE		1024
 # define MULTI_MEMORY	2
 # define MAX_FD			1000
 
