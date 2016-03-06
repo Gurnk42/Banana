@@ -6,7 +6,7 @@
 #    By: ebouther <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 201./ft_printf/1./ft_printf/25 18:24:09 by ebouther          #+#    #+#              #
-#    Updated: 2016/02/19 18:18:43 by ebouther         ###   ########.fr        #
+#    Updated: 2016/03/06 13:19:54 by ebouther         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -71,6 +71,7 @@ SRCS = 	ft_memset.c \
 	ft_lstdelone.c \
 	ft_lstdel.c \
 	ft_lstadd.c \
+	ft_lstadd_end.c \
 	ft_lstiter.c \
 	ft_lstmap.c \
 	ft_abs.c \
