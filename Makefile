@@ -6,7 +6,7 @@
 #    By: ebouther <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 201./ft_printf/1./ft_printf/25 18:24:09 by ebouther          #+#    #+#              #
-#    Updated: 2016/03/06 13:19:54 by ebouther         ###   ########.fr        #
+#    Updated: 2016/03/07 22:13:38 by ebouther         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -41,6 +41,7 @@ SRCS = 	ft_memset.c \
 	ft_isalnum.c \
 	ft_isascii.c \
 	ft_isprint.c \
+	ft_isupper.c \
 	ft_toupper.c \
 	ft_tolower.c \
 	ft_memalloc.c \
