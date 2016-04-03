@@ -6,7 +6,7 @@
 #    By: ebouther <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 201./ft_printf/1./ft_printf/25 18:24:09 by ebouther          #+#    #+#              #
-#    Updated: 2016/03/07 22:13:38 by ebouther         ###   ########.fr        #
+#    Updated: 2016/04/03 16:12:34 by ebouther         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -85,6 +85,7 @@ SRCS = 	ft_memset.c \
 	ft_uni_convert.c \
 	get_next_line.c \
 	utils.c \
+	ft_error_exit.c \
 	./ft_printf/flags.c \
 	./ft_printf/precision.c \
 	./ft_printf/padding_4.c \
