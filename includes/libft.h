@@ -6,7 +6,7 @@
 /*   By: ebouther <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/23 15:08:57 by ebouther          #+#    #+#             */
-/*   Updated: 2016/04/03 16:12:01 by ebouther         ###   ########.fr       */
+/*   Updated: 2016/04/03 16:14:38 by ebouther         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,7 +102,7 @@ t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 /*
 ** Display:
 */
-void				ft_error_exit(const char * error);
+void				ft_error_exit(const char *error);
 int					ft_printf(char const *s, ...);
 void				ft_putchar(char c);
 void				ft_putstr(char const *s);
